@@ -1,0 +1,42 @@
+
+.page
+{
+/* margin: 0 3em 0 3em; */
+text-align: justify;
+border: solid 1px;
+padding: 10px;
+color: #000000;
+}
+
+.page p a
+{
+color: #FF7800;
+text-decoration: underline;
+}
+
+.page p a:hover
+{
+text-decoration: none;
+}
+
+
+/* indent different sections */
+.page li { margin-left: 9px; }
+
+.page li.level1 { margin-left: 13px; }
+.page li.level2 { margin-left: 33px; }
+.page li.level3 { margin-left: 53px; }
+.page li.level4 { margin-left: 73px; }
+.page li.level5 { margin-left: 93px; }
+
+.page li.open {
+  list-style-image: url(../../images/minus.gif);
+    /*list-style-type: circle;*/
+}
+
+.page li.closed {
+  list-style-image: url(../../images/plus.gif);
+    /*list-style-type: disc;*/
+}
+
+
